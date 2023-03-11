@@ -1,0 +1,21 @@
+{
+  "name": "untek-model/repository",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\Model\\Repository\\": "src",
+      "Untek\\Model\\Repository\\Tests\\": "tests"
+    }
+  }
+}
