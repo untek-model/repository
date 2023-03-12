@@ -3,7 +3,7 @@
 namespace Untek\Model\Repository\Traits;
 
 use Untek\Core\Code\Factories\PropertyAccess;
-use Untek\Core\Code\Helpers\PropertyHelper;
+use Untek\Core\Instance\Helpers\PropertyHelper;
 use Untek\Core\Contract\Common\Exceptions\InvalidMethodParameterException;
 use Untek\Core\Text\Helpers\Inflector;
 use Untek\Model\Shared\Enums\EventEnum;
