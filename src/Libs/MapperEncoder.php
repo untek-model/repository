@@ -2,13 +2,13 @@
 
 namespace Untek\Model\Repository\Libs;
 
+use Untek\Component\Encoder\Encoders\ChainEncoder;
 use Untek\Core\Arr\Helpers\ArrayHelper;
 use Untek\Core\Instance\Helpers\PropertyHelper;
 use Untek\Core\Collection\Libs\Collection;
 use Untek\Core\Instance\Helpers\ClassHelper;
 use Untek\Model\Entity\Helpers\EntityHelper;
 use Untek\Model\Repository\Interfaces\MapperInterface;
-use Untek\Lib\Components\Format\Encoders\ChainEncoder;
 
 class MapperEncoder //implements MapperInterface
 {
