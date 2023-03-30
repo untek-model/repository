@@ -72,12 +72,14 @@ trait RepositoryMapperTrait
         $array = $this->getMapperEncoder()->decode($array);
 
         // todo: refactor
-        if(property_exists($this, 'container')) {
-            $container = $this->container;
-        } else {
-            $container = null;
-        }
-        $entity = ClassHelper::createInstance($this->getEntityClass(), [], $container);
+//        if(property_exists($this, 'container')) {
+//            $container = $this->container;
+//        } else {
+//            $container = null;
+//        }
+        $entityClass = $this->getEntityClass();
+        $entity = new $entityClass();
+//        $entity = ClassHelper::createInstance($entityClass, [], $container);
         PropertyHelper::setAttributes($entity, $array);
         return $entity;
     }
