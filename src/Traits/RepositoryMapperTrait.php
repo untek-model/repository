@@ -11,7 +11,7 @@ use Untek\Core\Text\Helpers\Inflector;
 use Untek\Model\Entity\Helpers\EntityHelper;
 use Untek\Model\Entity\Interfaces\EntityIdInterface;
 use Untek\Model\Repository\Libs\MapperEncoder;
-use Untek\Lib\Components\Format\Encoders\ChainEncoder;
+use Untek\Component\Encoder\Encoders\ChainEncoder;
 
 trait RepositoryMapperTrait
 {
