@@ -2,7 +2,10 @@
 
 namespace Untek\Model\Repository\Interfaces;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Core\Contract\Encoder\Interfaces\EncoderInterface;
+
+DeprecateHelper::hardThrow();
 
 /**
  * Возможность маппинга сущностей

@@ -9,7 +9,7 @@ use Untek\Model\Repository\Interfaces\RepositoryInterface;
 
 DeprecateHelper::hardThrow();
 
-abstract class BaseRepository implements RepositoryInterface
+abstract class BaseRepository //implements RepositoryInterface
 {
 
     use EntityManagerAwareTrait;
